@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "cypress:gui": "cypress open",
+    "cypress:headless": "cypress run",
+    "test:smoke": "cypress run --env grepTags=smoke,grepUntagged=false",
+    "test:regression": "cypress run --env grepTags=regression,grepUntagged=false",
+    "test:smoke:open": "cypress open --env grepTags=smoke,grepUntagged=false",
+    "test:regression:open": "cypress open --env grepTags=regression,grepUntagged=false"
+  },
+  "name": "maximus-automation",
+  "packageManager": "yarn@4.2.2",
+  "devDependencies": {
+    "@types/cypress": "^1.1.6",
+    "cypress": "^13.7.0",
+    "cypress-grep": "^3.0.4"
+  }
+}
