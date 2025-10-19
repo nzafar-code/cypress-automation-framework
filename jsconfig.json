@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "baseUrl": "./",
-    "types": ["cypress"]
+    "types": []
   },
   "include": [
     "cypress/**/*.js"
