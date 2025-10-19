@@ -1,10 +1,11 @@
 
 const { defineConfig } = require('cypress');
+const grep = require("@cypress/grep/src/plugin");
 
 module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
-      require('cypress-grep/src/plugin')(config);
+      grep(config);
       config.baseUrl = config.env.baseUrl;
       return config;
     },

@@ -16,7 +16,8 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 // cypress/support/e2e.js
-import 'cypress-grep'
+import '@cypress/grep';
+
 
 
 // Alternatively you can use CommonJS syntax:
