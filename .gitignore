@@ -18,6 +18,9 @@ cypress/reports/
 .env.production
 cypress.env.json
 
+# Documentation files
+GREP-GUIDE.md
+
 # Test results
 test-results/
 mochawesome-report/
